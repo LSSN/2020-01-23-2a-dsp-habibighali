@@ -1,0 +1,5 @@
+  VERONICA CONTU 2A
+//crea un file di faust in cui esponi, in forma di commento, i principi della sintesi sottrattiva. Realizza un esempio attraverso un filtraggio ////passa banda.
+// nella sintesi sottrattiva ci sono molti strumenti tra le quali lo spretoscopio che serve e uno dei simboli che utiliziamo per analizzare l’ampiezza nel dominio della frequenza 
+import("stdfaust.lib");
+process = fi.lowpass(2,2000): fi.highpass (2,2000);
